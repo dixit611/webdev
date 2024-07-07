@@ -1,5 +1,6 @@
 1. npm install
-cd Frontend
+
+2. cd Frontend
 npm run dev
 
 cd Backend
