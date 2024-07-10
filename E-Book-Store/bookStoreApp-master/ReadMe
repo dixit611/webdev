@@ -3,5 +3,5 @@
 2. cd Frontend
    npm run dev
 
-cd Backend
-npm start
+3 cd Backend
+  npm start
