@@ -1,0 +1,9 @@
+# this is a Electronic Book store
+
+1. npm install
+
+2. cd Frontend
+   npm run dev
+
+3. cd Backend
+   npm start and

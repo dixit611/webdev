@@ -1,0 +1,59 @@
+body{
+    margin-top: -15px;
+    padding: 0;
+    background-image: url(god.jpg);
+    display: flexbox;
+
+}
+ul{
+    list-style-type: none;
+    background-color: black;
+    color:white;
+
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+ul li:hover{
+    background-color: green;
+    color: #fff;
+}
+.dropdown{display:none;}
+
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.27cm;
+    margin-top: 0.27cm;
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
+}
+.id{display:none;}
+
+.dropdown ul li:hover
+ .id{
+    display: block;
+    position: absolute;
+    margin-left: 3.75cm;
+    margin-top: -0.75cm ;
+    
+
+}
+.id ul{
+    margin: 1;
+    padding: 0;
+    width: fit-content;
+
+}
+.id ul li{
+    display: block ;
+    width: 80px;
+    
+}
